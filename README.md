@@ -1,6 +1,6 @@
 📌 Project Objective
 Automate the testing of the GUVI web application by simulating user actions and validating key UI functionalities — including page behavior, accessibility of critical elements, navigation flows, and login/logout logic.
-
+________________________________________
 📁 Project Structure
 Guvi-final-project-1/
 │
@@ -23,6 +23,7 @@ Guvi-final-project-1/
 ├── node.py                 # Node utilities
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+________________________________________
 ✅ Test Cases Covered
 #	Scenario	Expected Result
 TC01	Verify URL https://www.guvi.in is valid	Page loads without errors
@@ -35,12 +36,14 @@ TC07	Login with invalid credentials	Login fails with appropriate error message
 TC08	Verify menu items (Courses, LIVE Classes, Practice)	All menu items visible and accessible
 TC09	Validate Dobby GUVI assistant presence	Dobby assistant widget displayed on page
 TC10	Validate logout functionality	User logged out and redirected to homepage
+________________________________________
 🛠️ Tech Stack
-Language: Python
-Framework: Playwright
-Test Runner: Pytest
-Reporting: pytest-html
-Design Pattern: Page Object Model (POM)
+•	Language: Python
+•	Framework: Playwright
+•	Test Runner: Pytest
+•	Reporting: pytest-html
+•	Design Pattern: Page Object Model (POM)
+________________________________________
 ⚙️ Setup & Installation
 1. Clone the repository
 git clone https://github.com/vkarthikvenkatachalam-dev/Guvi-final-project-1.git
@@ -56,6 +59,7 @@ source .venv/bin/activate
 3. Install dependencies
 pip install -r requirements.txt
 playwright install
+________________________________________
 ▶️ Running Tests
 Run all tests
 pytest tests/guvi_test.py
@@ -65,53 +69,33 @@ Run on a specific browser
 pytest tests/guvi_test.py --browser chromium
 pytest tests/guvi_test.py --browser firefox
 pytest tests/guvi_test.py --browser webkit
+________________________________________
 📊 Test Reports
 HTML reports are generated in the reports/ folder after each test run.
-
 To generate:
-
 pytest tests/guvi_test.py --html=reports/report.html --self-contained-html
+________________________________________
 🌐 Cross-Browser Support
 Tests are validated across:
-
-✅ Chrome (Chromium)
-✅ Firefox
-✅ Safari (WebKit)
-✅ Microsoft Edge
+•	✅ Chrome (Chromium)
+•	✅ Firefox
+•	✅ Safari (WebKit)
+•	✅ Microsoft Edge
+________________________________________
 📋 Requirements
 playwright
 pytest
 pytest-html
 Install all via:
-
 pip install -r requirements.txt
+________________________________________
 📝 Notes
-OOP principles are followed throughout the codebase using the Page Object Model
-Exception handling is implemented to ensure test resilience
-Browser is properly closed after all test cases are executed
-Both positive and negative test scenarios are covered
+•	OOP principles are followed throughout the codebase using the Page Object Model
+•	Exception handling is implemented to ensure test resilience
+•	Browser is properly closed after all test cases are executed
+•	Both positive and negative test scenarios are covered
+________________________________________
 👤 Author
 Karthik V
 GitHub: @vkarthikvenkatachalam-dev
 
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 0 watching
-Forks
- 0 forks
-Releases
-No releases published
-Create a new release
-Packages
-No packages published
-Publish your first package
-Contributors
-1
-@vkarthikvenkatachalam-dev
-vkarthikvenkatachalam-dev karthik venkatachalam
